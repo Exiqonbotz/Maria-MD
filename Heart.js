@@ -220,7 +220,7 @@ async function Telesticker(url) {
             data2 = await axios(`https://api.telegram.org/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/getFile?file_id=${fileId}`)
             result = {
             status: 200,
-            author: '💙𓆩‎✘AʏᴜSʜ✘𓆪_✰',
+            author: '💙𓆩‎ZAKUTOxKAI',
             url: "https://api.telegram.org/file/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/" + data2.data.result.file_path
             }
             mariayresult.push(result)
@@ -2698,17 +2698,16 @@ https://chat.whatsapp.com/${response}
         break;   
     
         
-  case 'mods':
+  case 'ownerr':
 case 'developer':
 case 'dev':
-    const devmod = `  🍥 *Moderators* 🍥\n\n
-*🎫Ayush* @919931122319
+    const devmod = `  👑 *Owner* 👑\n\n
+*👑Zakuto* +491746097289
 
-*🎫xeon* @916909137213
+*👑Kai* +4915679008989
 
-*🎫Pikachu* @918811074852
+*👑Exiqon* +436508326391111
 
-*🎫OldUser* @918602239106
  \n
 \n📛*Don't Spam them to avoid Blocking !*\n\n For any help, type *${prefix}support* and ask in the group.\n\n*✨️Thanks for using Maria-Md* `;
 

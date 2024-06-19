@@ -22,7 +22,7 @@ const makeWASocket = require("@whiskeysockets/baileys").default
 var sessionFolderPath = path.join(__dirname, '/session');
 var sessionPath = path.join(sessionFolderPath, '/creds.json'); 
 console.log(Config.sessionId);
-Dec_Sess();
+//Dec_Sess();
 
 const store = makeInMemoryStore({
     logger: pino().child({
