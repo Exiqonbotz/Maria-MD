@@ -1950,24 +1950,18 @@ break;
                            
   case 'menu': case 'help': case 'h': 
       const txt = `╭─「 *Konichiwa* 」
-│⋊ 𝕌𝕤𝕖𝕣: ${pushname} 
-│⋊ 𝔹𝕠𝕥:  ${botname}
-│⋊ ℙ𝕣𝕖𝕗𝕚𝕩:  *${prefix}*
-│⋊ 𝔻𝕒𝕥𝕖: ${xdate}
-│⋊ 𝕋𝕚𝕞𝕖:  ${xtime}
-│⋊ 𝕆𝕨𝕟𝕖𝕣: ${ownername}
-│⋊ 𝕧𝕖𝕣𝕤𝕚𝕠𝕟: ${mver}
-│⋊ ℍ𝕠𝕤𝕥: ${os.hostname()}
-│⋊ ℙ𝕝𝕒𝕥𝕗𝕠𝕣𝕞: ${os.platform()} 
-│⋊ ℝ𝕦𝕟𝕥𝕚𝕞𝕖: ${runtime(process.uptime())}
-│⋊ 𝕋𝕠𝕥𝕒𝕝𝕔𝕞𝕕: ${mariafeature()}
-│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: https://gg.gg/Maria-support
+│⋊ User: ${pushname} 
+│⋊ Bot:  ${botname}
+│⋊ Prefix:  *${prefix}*
+│⋊ Datum: ${xdate}
+│⋊ Uhrzeiz:  ${xtime}
+│⋊ Owner: ${ownername}
+│⋊ Laufzeit: ${runtime(process.uptime())}
 ╰────────────┈平和
  🎀𝐅𝐨𝐥𝐥𝐨𝐰 𝐨𝐧: https://www.instagram.com/ayushpandeyy_023
 
-Here's the list of my Commands.🔖
 ${readmore}
-┌──⊰ _*🧧GENERAL🧧*_
+┌──⊰ _*Allgemein*_
 │⊳ 🌿 ${prefix}hi
 │⊳ 🌿 ${prefix}dev
 │⊳ 🌿 ${prefix}info
@@ -2694,7 +2688,7 @@ https://chat.whatsapp.com/${response}
         case 'test': case 'p': case 'ping': 
         let timestampe = speed()
         let latensie = speed() - timestampe
-         reply(`🧧Testing successfull, Bot is active\n\n📍*ping* ${latensie.toFixed(4)} miliseconds\n\n🎀Type ${prefix}help to display the menu`)
+         reply(`Test erfolgreich, Bot ist aktiv!\n\n📍 *ping* ${latensie.toFixed(4)} milisekunden.\n\n`)
         break;   
     
         
@@ -2702,16 +2696,14 @@ https://chat.whatsapp.com/${response}
 case 'developer':
 case 'dev':
     const devmod = `  👑 *Owner* 👑\n\n
-*👑Zakuto* +491746097289
+*👑Zakuto* 
 
-*👑Kai* +4915679008989
+*👑Kai* 
 
-*👑Exiqon* +436508326391111
+*👑Exiqon* 
+`;
 
- \n
-\n📛*Don't Spam them to avoid Blocking !*\n\n For any help, type *${prefix}support* and ask in the group.\n\n*✨️Thanks for using Maria-Md* `;
-
-    Maria.sendMessage(m.chat, { text: devmod, mentions: ["919931122319@s.whatsapp.net", "918811074852@s.whatsapp.net", "916909137213@s.whatsapp.net","918602239106@s.whatsapp.net"] }, { quoted: m });
+    //Maria.sendMessage(m.chat, { text: devmod, mentions: ["919931122319@s.whatsapp.net", "918811074852@s.whatsapp.net", "916909137213@s.whatsapp.net","918602239106@s.whatsapp.net"] }, { quoted: m });
     break;
 
 

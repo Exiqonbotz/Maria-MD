@@ -4,7 +4,7 @@ require('dotenv').config();
 
 //contact details
 global.ownernumber = [ process.env.OWNER_NUMBER || "436508326391111", "491746097289"],
-global.ownername = process.env.OWNER_NAME || "💙𓆩‎ZAKUTOxKAI",
+global.ownername = process.env.OWNER_NAME || "‎ZAKUTOxKAI",
 global.ytname = "YT: MYNUTS.inc"
 global.socialm = "GitHub: Exiqonbotz"
 global.location = "Germany"
@@ -12,15 +12,15 @@ global.location = "Germany"
 global.botname = process.env.BOTNAME || "ҡאƶ Bot",//name of the bot
 
 //sticker details
-global.stickername = process.env.STICKER || "💙𓆩‎ZAKUTOxKAI",
+global.stickername = process.env.STICKER || "‎Exiqonbotz inc.",
 global.packname = 'Sticker By'
-global.author = process.env.AUTHOR || "💙𓆩‎ZAKUTOxKAI",
+global.author = process.env.AUTHOR || "‎Exiqonbotz inc.",
 //console view/theme
 global.themeemoji = '🧩'
 global.wm = "Exiqonbotz inc."
 
 //theme link
-global.link = 'https://chat.whatsapp.com/HmPJSaTB8zF3MJC1IjlrYj'
+global.link = 'https://chat.whatsapp.com/D2lCGvhP47k1qfRG7ZpNIr'
 
 //custom prefix
 global.prefa = process.env.PREFIX || ".",
@@ -39,12 +39,12 @@ global.autoread_status = false //auto view status/story
 
 //reply messages
 global.mess = {
-    done: '🍭 *Bitte sehr.* ',
-    prem: '🍭 *My darling, this feature is reserved for premium users only*',
+    done: '*Bitte sehr.* ',
+    //prem: '🍭 *My darling, this feature is reserved for premium users only*',
     admin: '*Dieser Befehl kann nur von einem Admin verwendet werden.* !',
     botAdmin: 'Sorry leider kann ich diesen Befehl nicht ausführen, ohne ein *Admin* dieser Gruppe zu sein. ',
-    owner: '🍭 *My dearest, this feature is reserved for the owner only*',
-    group: '🍭 *Sweetheart, this feature is exclusively for groups*',
+    owner: 'Nur meine *Owner* können diesen Befehl benutzen!',
+    group: 'Dieser Befehl ist nur für *Gruppen* Verfügbar!',
     private: 'Dieser Befehl ist nur für *Private Chats* Verfügbar!',
     wait: '*Bitte warte einen moment,ich arbeite daran...* ',    
     error: '*Error!*',
